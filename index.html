@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Flex Tryout</title>
+        <style>
+            .pageContainer {
+                min-height: 384px;
+                background: #999;
+                border: 1px solid #b6b6b6;
+                box-sizing: content-box!important;
+                height: 200px;
+            }
+            .pagebody {
+                display: flex;
+                flex-direction: row; 
+                box-sizing: border-box; 
+                flex: 1 1 1e-09px;
+            }
+            .pagebody nav {
+                flex: 1 6 100%;
+                box-sizing: border-box;
+                max-width: 20%;
+                border-color: #88b;
+                background: #ccf;
+            }
+            .pagebody article {
+                flex: 3 1 100%;
+                box-sizing: border-box;
+                max-width: 60%;
+                border-color: #cc3;
+                background: #dd8;
+                cursor: pointer;
+            }
+            .pagebody aside {
+                flex: 1 6 100%;
+                box-sizing: border-box;
+                max-width: 20%;
+                border-color: #88b;
+                background: #ccf;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="pageContainer">
+            <header>Header</header>
+            <section class="pagebody">
+                <nav>Navigation</nav>
+                <article>
+                    
+                </article>
+                <aside>Aside</aside>
+            </section>
+            <footer>Footer</footer>
+        </div>
+    </body>
+</html>
