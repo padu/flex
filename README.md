@@ -8,7 +8,7 @@ Positioned, for explicit position of an element
 The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
 
 
-# The flex container properties are:
+## The flex container properties are:
 
     flex-direction
     flex-wrap
@@ -18,7 +18,7 @@ The Flexible Box Layout Module, makes it easier to design flexible responsive la
     align-content
 
 
-# The flex item properties are:
+## The flex item properties are:
 
     order
     flex-grow
